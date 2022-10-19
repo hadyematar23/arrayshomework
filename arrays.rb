@@ -21,3 +21,10 @@ puts booleans.unshift(false)
 # For example, for the array titled 'integers', in order to call on the third element in the list, I can run the following prompt which will print to the console the index number 2 from the array: 
 # puts floats[2]
 
+# Additional Array Method
+
+# The new method I chose to use is "shuffle!" which will basically take all of the elements in the array, shuffle them into a random order and then deliver that randomized, shuffled order. 
+
+countries = ["Mexico", "Colombia", "Argentina"]
+
+puts countries.shuffle!
