@@ -15,3 +15,9 @@ puts floats.push(14.25)
 
 # If I call the unshift method, it will append the element I provide (in this case, the Boolean false) the beginning of the array
 puts booleans.unshift(false)
+
+# Explanation of Arrays and Index Positions 
+# Arrays include a list of elements, listed in order. The index position is which number that element is in the array. In order to call the element that I want in that order, I will list the variable name for the array and then the index number. The first index number is 0. Then 1. Then 2. 
+# For example, for the array titled 'integers', in order to call on the third element in the list, I can run the following prompt which will print to the console the index number 2 from the array: 
+# puts floats[2]
+
